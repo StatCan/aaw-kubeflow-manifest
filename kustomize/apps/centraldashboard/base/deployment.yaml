@@ -20,3 +20,7 @@ spec:
       serviceAccountName: centraldashboard
       imagePullSecrets:
       - name: k8scc01covidacr-registry-connection
+      resources:
+        requests:
+          cpu: 5m
+          memory: 315Mi
